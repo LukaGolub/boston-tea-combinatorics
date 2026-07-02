@@ -64,6 +64,4 @@ a = 1, b = 6, c = -1 (unlimited), d = 1, e = 0, n = 5
 - `MAX` is fixed at `15000` — the maximum supported value for `n` and for any individual supply limit.
 - Runtime is dominated by the `(A x B) x (C x D)` and subsequent `x E` convolution steps, each of which is `O(MAX^2)`, so very large values of `n`/`MAX` will be slow; this is an educational/demonstration implementation rather than an optimized one (an FFT-based or truncated convolution would scale much better).
 
-## License
 
-Feel free to use, modify, and distribute this project. Consider adding an explicit license file (e.g. MIT) if you plan to share it publicly.
