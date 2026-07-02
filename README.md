@@ -24,14 +24,16 @@ This program solves a classic combinatorics problem, framed as the "Citizens of 
 ## Build
 
 ```bash
-g++ -O2 -o tea_combinatorics tea_combinatorics.cpp
+g++ -O2 -o boston_tea_combinatorics tea_combinatorics.cpp
 ```
 
 ## Usage
 
 ```bash
-./tea_combinatorics
+./boston_tea_combinatorics
 ```
+
+An .exe version is also located in the repo.
 
 The program prompts for each parameter in turn:
 
